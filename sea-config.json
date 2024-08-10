@@ -1,0 +1,6 @@
+{
+  "main": "build/index.js",
+  "output": "build/sea-prep.blob",
+  "disableExperimentalSEAWarning": true,
+  "useCodeCache": true
+}

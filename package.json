@@ -1,0 +1,15 @@
+{
+  "name": "playwright-demo",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.46.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.15",
+    "esbuild": "0.23.0",
+    "postject": "^1.0.0-alpha.6",
+    "typescript": "^5.5.4"
+  }
+}
