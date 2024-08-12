@@ -34,6 +34,6 @@ execFileSync(
     "build/sea-prep.blob",
     "--sentinel-fuse",
     "NODE_SEA_FUSE_fce680ab2cc467b6e072b8b5df1996b2",
-  ],
+  ].concat(platform() === "darwin" ? ["--macho-segment-name", "NODE_SEA"] : []),
   { shell: true }
 );
