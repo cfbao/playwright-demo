@@ -35,5 +35,5 @@ execFileSync(
     "--sentinel-fuse",
     "NODE_SEA_FUSE_fce680ab2cc467b6e072b8b5df1996b2",
   ],
-  { shell: true, encoding: "utf8" }
+  { shell: true }
 );
